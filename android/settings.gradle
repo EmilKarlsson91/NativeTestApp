@@ -1,0 +1,3 @@
+rootProject.name = 'NativeTestApp'
+
+include ':app'
