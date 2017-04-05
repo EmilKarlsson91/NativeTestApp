@@ -9,14 +9,20 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  Image
 } from 'react-native';
+
+import DisplayPic from './app/img';
 
 export default class NativeTestApp extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
+
+        <DisplayPic />
+
+          <Text style={styles.welcome}>
           Nu jävlar finns det text!
         </Text>
       </View>
