@@ -1,15 +1,12 @@
+'use strict';
 
+import React, { Component } from 'react';
+import { Image } from 'react-native';
 
-const img = {
-    imgOne: require('./res/bamanTuba.png'),
-    imgTwo: require('./res/piderman.jpg'),
-    imgThree: require('./res/spongeBob.png'),
-};
-
-var images = [
-  img.imgOne,
-  img.imgTwo,
-  img.imgThree
+const images = [
+ require('./res/bamanTuba.png'),
+ require('./res/piderman.jpg'),
+ require('./res/spongeBob.png')
 ];
 
-export default img;
+export default images;

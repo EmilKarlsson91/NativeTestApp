@@ -4,11 +4,11 @@ import {
 
 const style = StyleSheet.create({
   img: {
-    height: 200,
-    width: 200,
+    height: 270,
+    width: 270,
     borderWidth: 2,
     borderColor: 'orange',
-    borderRadius: 100,
+    borderRadius: 131,
   },
 });
 

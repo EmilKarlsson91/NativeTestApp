@@ -20,10 +20,10 @@ export default class NativeTestApp extends Component {
     return (
       <View style={styles.container}>
 
-        <DisplayPic />
+        <DisplayPic num={2}/>
 
-          <Text style={styles.welcome}>
-          Nu jävlar finns det text!
+        <Text style={styles.welcome}>
+          
         </Text>
       </View>
     );
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'cyan',
+    backgroundColor: 'teal',
   },
   welcome: {
     color: 'orange',

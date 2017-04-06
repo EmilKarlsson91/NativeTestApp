@@ -9,21 +9,15 @@ import {
   Image
 } from 'react-native';
 
-
-
 export default class DisplayPic extends Component{
 
   render(){
-
-    // function getImg(index){
-    //   return images[index];
-    //}
 
     return(
       <View>
         <Image
           style={styles.img}
-          source={require('./res/spongeBob.png')}
+          source={images[this.props.num]}
         />
       </View>
     );
